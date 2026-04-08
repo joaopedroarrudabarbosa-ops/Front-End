@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.mario-bros {
+    background-color: #F43443;
+    padding: 80px;
+}
+
+.menu {
+    background-color: #E8E8E0;
+    padding: 40px;
+}
+
+.menu p {
+    color: white;
+    font-size: 25px;
+    background-color: #62C82C;
+    width: 324px;
+    height: 70px;
+    border-radius: 10px;
+}
+
+.personagens {
+    background-color: #819DF9;
+    padding: 80px;
+}
+
+.personagens h1 {   
+    color: white;
+    font-size: 40px;
+}
+
+.card img {
+    border-radius: 80px;
+}   
+
+.card p {
+    color: white;
+    font-size: 25px;
+    background-color: #4061C9CC;
+    width: 155px;
+    height: 55px;
+    border-radius: 10px;
+}   
+
+.linha-verde {
+    color: #5DD434FA;
+    background-color: #5DD434FA;
+    padding: 1px;
+}
+
+.poderes {
+    background-color: #E7D5AB;
+    padding: 70px;
+}
+
+.poderes h1 {
+    color: white;
+    font-size: 40px;
+}
+
+.poder-card {
+    border: 10px solid #E7B300;
+    border-radius: 10px;
+}
+
+.mario-inimigos {
+    background-color: #2A2724CC;
+    padding: 80px;
+}
+
+.mario-inimigos h1 {
+    color: white;
+    font-size: 40px;
+}
+
+.linha-vermelha {
+    color: #F43443;
+    background-color: #F43443;
+    padding: 1px;
+}
+
+.reino {
+    background-color: #6185F8CC;
+    padding: 80px;
+}
+
+.salve {
+    color: white;
+    font-size: 20px;
+}
+
+.linha-verde2 {
+    color: #5DD434FA;
+    background-color: #5DD434FA;
+    padding: 1px;
+}
