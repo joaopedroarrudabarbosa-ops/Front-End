@@ -1,0 +1,55 @@
+/* #grade {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: repeat(4, 2fr);
+    border: 1px solid black;
+    height: 100vh;
+    gap: 15px;
+} */
+
+#grade>* {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#grade {
+    display: grid;
+    grid-template-areas: 
+    "nav nav header header header"
+    "nav nav produtos produtos publicidade"
+    "servicos servicos produtos produtos footer";
+    grid-template-columns: 10% auto 15%;
+    grid-template-rows: 100px 1fr 1fr 75px;
+    height: 108vh;
+    gap: 15px;
+}
+
+header {
+    grid-area: header;
+    background-color: blue;
+}
+
+footer {
+    grid-area: footer;
+    background-color: aqua;
+}
+
+nav {
+    grid-area: nav;
+    background-color: antiquewhite;
+}
+
+aside {
+    grid-area: publicidade;
+    background-color: blueviolet;
+}
+
+section#produtos {
+    grid-area: produtos;
+    background-color: brown;
+}
+
+section#servicos {
+    grid-area: servicos;
+    background-color: chocolate;
+}
