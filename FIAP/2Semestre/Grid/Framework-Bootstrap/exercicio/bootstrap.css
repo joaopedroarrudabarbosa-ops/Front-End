@@ -1,0 +1,11 @@
+.row {
+    margin-bottom: 20px;
+}
+
+[class*="col-"] {
+    background-color: #e5e5ed;
+    border: 1px solid #c5c5d0;
+    padding: 20px;
+    text-align: center;
+}
+
